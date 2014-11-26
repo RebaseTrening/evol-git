@@ -31,7 +31,7 @@ $plugin->release = 'Correct Writing 2.6 Beta';
 $plugin->maturity = MATURITY_BETA;
 
 $plugin->dependencies = array(
-    'qtype_shortanswer' => 2013050100,
+    'qtype_shortanswer' => 2013050100000,
     'qbehaviour_adaptivehints' => 2014071000,
     'qbehaviour_adaptivehintsnopenalties' => 2014071000,
     'qbehaviour_interactivehints' => 2014071000,
