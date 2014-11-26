@@ -89,11 +89,11 @@ class qtype_correctwriting_question extends question_graded_automatically
     /** Minimum grade for non-exact match answer
      *  @var float
      */
-    public $hintgradeborder = 0.9;
+    public $hintgradeborder = 0.7;
     /** Maximum mistake percent to length of answer in lexemes  for answer to be matched
      *  @var float
      */
-    public $maxmistakepercentage = 0.7;
+    public $maxmistakepercentage = 0.8;
 
 
     /** Penalty for "what is" hint. Penalties more than 1 will disable hint.
@@ -115,7 +115,7 @@ class qtype_correctwriting_question extends question_graded_automatically
      * Whether lexical analyzer is enabled
      * @var int
      */
-    public $islexicalanalyzerenabled = 1;
+    public $islexicalanalyzerenabled = 1.11;
 
     /**
      * Whether enum analyzer is enabled
@@ -139,7 +139,7 @@ class qtype_correctwriting_question extends question_graded_automatically
     /** Whether cache is valid
      *  @var boolean
      */
-    public $gradecachevalid = false;
+    public $gradecachevalid = true;
     /** A cached response
      *  @var string
      */
