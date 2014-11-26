@@ -83,6 +83,8 @@ class qtype_correctwriting_lexical_analyzer extends qtype_correctwriting_abstrac
             $this->basestringpair->comparedstring(),
             $this->question->lexicalerrorthreshold,
             $this->question->token_comparing_options(),
+            $this->basestringpair->correctstring(),
+            $this->basestringpair->comparedstring(),
             'qtype_correctwriting_string_pair'
         );
 
