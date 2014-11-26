@@ -120,13 +120,6 @@ abstract class  qtype_correctwriting_response_mistake {
     }
 
     /**
-     * Returns a key, uniquely identifying mistake.
-     *
-     * Used for finding mistake for hinting etc.
-     */
-    abstract public function mistake_key();
-
-    /**
      * Returns an array of supported hint class names (without qtype_correctwriting prefix).
      */
     public function supported_hints() {
