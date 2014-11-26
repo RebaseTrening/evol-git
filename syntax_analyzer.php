@@ -95,11 +95,7 @@ class qtype_correctwriting_syntax_analyzer extends qtype_correctwriting_abstract
                 } else {
                     $lastgroup = $skippedlexemegroups[count($skippedlexemegroups) - 1];
                     $lastitem = $lastgroup[count($lastgroup) - 1];
-                    if ($index == $lastitem + 1) {
-                        $skippedlexemegroups[count($skippedlexemegroups) - 1][] = $index;
-                    } else {
-                        $skippedlexemegroups[] = array( $index );
-                    }
+                    
                 }
             }
         }
